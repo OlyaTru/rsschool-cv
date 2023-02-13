@@ -46,4 +46,4 @@ I like to move forward and improve by gaining new knowledge. I believe that I ca
 **EN** B1  
 
 *****
-![rsschool logo](https://rs.school/`rs.school`)
+<a href = "https://rs.school/"><img src = "https://rs.school/images/rs_school.svg" weight = 80 height = 40></a>
