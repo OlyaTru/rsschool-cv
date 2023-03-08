@@ -1,1 +1,1 @@
-https://olyatru.github.io/rsschool-cv/index.html
+https://olyatru.github.io/rsschool-cv/
