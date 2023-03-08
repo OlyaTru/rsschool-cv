@@ -5,7 +5,6 @@ body {
     color: rgb(50, 50, 50);
     font-size: 16px;
     font-weight: normal;
-    /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
@@ -23,27 +22,32 @@ a:hover {
     margin: auto; 
     padding-top: 30px;   
     padding-bottom: 30px;
+    min-width: 500px;
 }
 
 .info {
     background-color: rgb(228, 206, 193);
     border-radius: 7px;
-    display: flex;
     max-width: 750px;
     height: 135px;
     margin-bottom: 45px;
+    columns: 2;    
 }
 
 .info-text {
     max-width: 750px;
-    position: relative;
-    left: 320px;
+    display: block;
+   
+}
+
+.info-text > h1 {
+    text-align: right;
 }
 
 @media (max-width: 700px) {
     .info {
         display: block;
-        text-align: center;
+        text-align: right;
         margin-bottom: 0px;
         height: auto;
     }
@@ -52,39 +56,32 @@ a:hover {
     }
 }
 
-.avatar {
+.info-avatar {
     display: inline-block;
     border-radius: 50%;
     overflow: hidden;
-    width: 145px;
-    height: 145px;    
+    width: 153px;
+    height: 153px;    
     border: solid rgb(228,206,193);
-    border-width: 3px;
+    border-width: 4px;
     margin-left: 20px;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
-.avatar img {
+.info-avatar img {
   width:100%;
   height:100%;
   object-fit: cover;
 }
 
-.info hr {
-    max-width: 750px;
-    border: 1.5px solid rgb(245, 245, 245);
-    width: 513px;
-    position: relative;
-    left: -255px;
-    bottom: 40px;
-}
-
 .icon-head {
+    display: block;
     max-width: 750px;
-    position: relative;
-    bottom: 40px;
-    left: 50px;
     font-style: italic;
+    font-size: 11pt;
+    text-align: right;
+    margin-right: 30pt;
+    margin-top: 0;
 }
 
 .icon-head img {
@@ -92,13 +89,15 @@ a:hover {
     width: 17.5px;
     height: 17.5px;
     margin-right: 5px;
+    margin-top: 0;
 }
 
 h1 {
-    position: relative;
-    right: 250px;
-    bottom: -20px;
     max-width: 750px;
+    padding-top: 15pt;
+    margin-bottom: 5pt;
+    letter-spacing: 1.5pt;
+    margin-right: 30pt;
 }
 
 h3 {
@@ -109,9 +108,12 @@ h3 {
 h4 {
     color: #86898f;
     font-style: italic;
-    position: relative;
-    bottom: 27px;
     max-width: 750px;
+    margin-top: 0;
+    margin-bottom: 5pt;
+    margin-right: 30pt;
+    letter-spacing: 2pt;
+    text-align: right;
 }
 
 .block {
@@ -160,42 +162,37 @@ h4 {
 .contacts {
     background-color: rgb(228, 206, 193);
     border-radius: 7px;
-    display: flex;
     max-width: 750px;
     height: 120px;
     margin-top: 30px;
     padding-top: 20px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .columns {
     column-count: 2;
-    column-gap: 20px;
-    column-rule: 1px solid #CCC;
-    column-width: 340px;
 }
 
 .columns p {
     font-style: italic;
 }
 
+.first_column {
+    column-width: auto;
+}
+
+.second_column {
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 .icon-foot {
     line-height: 1.7em;
-    margin-left: 40px;
-    }
+}
 
 .icon-foot img {
     width: 17.5px;
     height: 17.5px;
     margin-right: 5px;
 }
-
-@media (max-width: 700px) {
-    .contacts {
-        display: block;
-        text-align: center;
-        margin-bottom: 0px;
-        height: auto;
-    }
-}
-
