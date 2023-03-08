@@ -44,18 +44,6 @@ a:hover {
     text-align: right;
 }
 
-@media (max-width: 700px) {
-    .info {
-        display: block;
-        text-align: right;
-        margin-bottom: 0px;
-        height: auto;
-    }
-    .info-text {
-        margin-top: 0px;
-    }
-}
-
 .info-avatar {
     display: inline-block;
     border-radius: 50%;
