@@ -6,19 +6,19 @@ body {
     font-weight: normal;
     font-family: 'Hanken Grotesk', sans-serif;
 }
-a {
-    color: #86898f;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
 .container {
     max-width: 750px;
     margin: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     min-width: 500px;
+}
+a {
+    color: #86898f;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 .info {
     background-color: rgb(228, 206, 193);
