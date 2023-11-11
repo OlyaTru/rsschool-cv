@@ -4,15 +4,15 @@
 *****
 
 Contact | information
-   -----: | ----
+   -----: | :----
 *e-mail:* | rasokha.volha@gmail.com
 *telegram:* | [@Trusenka](https://t.me/Trusenka)
 *GitHub:* | [@OlyaTru](https://github.com/OlyaTru?tab=repositories)
 *Discord:* | Olya (@OlyaTru)
 *Location:* | Wrocław, Poland
 
-***
-***
+*****
+
 
 ## Summary
 
@@ -21,14 +21,15 @@ I like to move forward and improve by gaining new knowledge. I believe that I ca
 
 ## Education
 
-Belarusian State Technological University (*Faculty of print technology and media communications*)
++ Belarusian State Technological University (*Faculty of print technology and media communications*)
++ RS School Course (*JS / FRONT-END. Stage 0*)
 
 ## Skills and Proficiency:
 
 + HTML5, CSS3 (basic);
 + JavaScript (basic);
 + Git, GitHub (basic);
-+ Adobe Photoshop, Illustrator, InDesign, CorelDraw;
++ Adobe Photoshop, CorelDraw, Illustrator, InDesign;
 + 1С;
 
 ## Experience
@@ -40,18 +41,23 @@ Belarusian State Technological University (*Faculty of print technology and medi
 ## Code example
 
 ``` JavaScript
-function even_or_odd(number) {
-    return number % 2 == 0 ? "Even" : "Odd"
+function dataReverse(data) {
+  let arr = [];
+  let byte = 8;
+  for (let i = 0; i < data.length; i += byte) {
+      arr.push(data.slice(i, i + byte));
+  }
+  return arr.reverse().flat();
 }
 ```
 
 ## Languages
 
-**RU** native
+**RU**  native
 
-**PL** basic
+**PL**  A2
 
-**EN** B1
+**EN**  B1
 
 *****
-<a href = "https://rs.school/"><img src = "https://rs.school/images/rs_school.svg" weight = 80 height = 40></a>
+<a href = "https://rs.school/"><img src = "https://rs.school/images/rs_school_js.svg" weight = 80 height = 40></a>
