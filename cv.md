@@ -23,3 +23,41 @@ I like to move forward and improve by gaining new knowledge. I believe that I ca
 
 + Belarusian State Technological University (*Faculty of print technology and media communications*)
 + RS School Course (*JS / FRONT-END. Stage 0*)
+
+## Skills and Proficiency:
+
++ HTML5, CSS3 (basic);
++ JavaScript (basic);
++ Git, GitHub (basic);
++ Adobe Photoshop, CorelDraw, Illustrator, InDesign;
++ 1С;
+
+## Experience
+
+1. Belarusian State Technological University, *layout designer-engineer*.
+2. Polotsk book publishing house, *layout designer-engineer*.
+3. Advertising agency, *advertising manager*.
+
+## Code example
+
+``` JavaScript
+function dataReverse(data) {
+  let arr = [];
+  let byte = 8;
+  for (let i = 0; i < data.length; i += byte) {
+      arr.push(data.slice(i, i + byte));
+  }
+  return arr.reverse().flat();
+}
+```
+
+## Languages
+
+**RU**  native
+
+**PL**  A2
+
+**EN**  B1
+
+*****
+<a href = "https://rs.school/"><img src = "https://rs.school/images/rs_school_js.svg" weight = 80 height = 40></a>
