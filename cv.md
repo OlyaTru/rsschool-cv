@@ -60,4 +60,4 @@ function dataReverse(data) {
 **EN**  B1
 
 *****
-<a href = "https://rs.school/"><img src = "https://rs.school/images/rs_school_js.svg" weight = 80 height = 40></a>
+<a href = "https://rs.school/"><img src = "https://sonejka.github.io/rs-kittens/dist/images/partners/logo-rs.svg" weight = 80 height = 40></a>
